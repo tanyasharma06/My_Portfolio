@@ -1,0 +1,66 @@
+.projects-section {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .projects-heading {
+    font-size: 3rem;
+    margin-bottom: 40px;
+    color: #0af157;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .project-card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .project-card h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .project-card p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .technologies {
+    margin-top: 10px;
+  }
+  
+  .tech-tag {
+    background-color: #0af157;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+    display: inline-block;
+  }
+  
+  .project-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: #147bbc;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .project-link:hover {
+    color: #0af157;
+  }
+  

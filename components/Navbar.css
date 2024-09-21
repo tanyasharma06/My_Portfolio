@@ -1,0 +1,50 @@
+/* Navbar.css */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    display: flex; /* Make it a flex container */
+    justify-content: space-between; 
+    align-items: center; /* Vertically center elements */
+  box-sizing: border-box;/* Space elements evenly *//* Vertically center elements */
+  }
+  .navbar .logo{
+    margin-right:auto;
+    margin-left: 70px;
+    text-shadow: black;
+  }
+  
+  .navbar ul {
+    list-style: none; /* Remove bullet points */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Make it a flex container */
+  }
+  
+  .navbar li {
+    margin-right: 20px; /* Add some space between list items */
+  }
+  
+  .navbar a {
+    color: black; /* White text color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.2s ease; 
+    font-weight: bold;
+    font-size:20px;
+  }
+  
+  .navbar a:hover {
+    color: #191de0; 
+  /* Light gray text color on hover */
+  }
+  
+  .navbar a.active , .navbar a:focus {
+    color: #667fef; /* Light blue text color for active link */
+  }
+  .navbar a:focus {
+    outline: none;
+    text-overflow:clip; /* Remove default focus outline *//* Add custom focus effect */
+  }
