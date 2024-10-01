@@ -1,21 +1,14 @@
-.heading {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    font-size: xxx-large;
-    margin-top: 100px;
-    color: #0af157;
-    font-weight: bold;
-  }
-  
+.heading-1{
+ font-size:4rem;
+ text-align: center;
+ color: rgb(240, 16, 50);
+}
   /* Make containers align horizontally */
   .container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 90px; /* Adjust the gap between container-1 and container-2 */
+    justify-content: space-evenly;
+    align-items: flex-start; /* Adjust the gap between container-1 and container-2 */
     margin-top: 50px;
   }
   
@@ -27,9 +20,11 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
-  .heading-1 {
+  .heading-2 {
     text-align: center;
-    text-decoration: underline;
+    color: rgba(242, 16, 39, 0.97);
+    font-size: 1.7rem;
+    font-weight:bold;
     margin-bottom: 30px;
   }
   
@@ -48,14 +43,14 @@
     border-radius: 10px;
     width: 100%;
     height: 5px;
-    background-color: black;
+    background-color:black;
     margin-bottom: 10px;
   }
   
   .technical-bars .progress-line span {
     height: 100%;
     display: block;
-    background-color: #0af157;
+    background-color: #f10a0a;
     position: absolute;
     border-radius: 10px;
     animation: animate 1s cubic-bezier(0.4, 0, 0.2, 1);
@@ -71,7 +66,7 @@
   }
   
   .progress-line.html span {
-    width: 90%;
+    width: 80%;
   }
   
   .progress-line.css span {
@@ -79,7 +74,7 @@
   }
   
   .progress-line.javascript span {
-    width: 80%;
+    width: 75%;
   }
   
   .progress-line.react span {
@@ -97,6 +92,7 @@
     text-align: center;
     width: 150px;
     position: relative;
+  
   }
   
   .radial-bar svg {
@@ -106,19 +102,26 @@
   
   .progress-bar {
     fill: none;
-    stroke: #e6e6e6;
+    stroke:black;
     stroke-width: 10px;
+
   }
   
   .path {
     fill: none;
-    stroke: #4caf50;
+    stroke: #e50d11;
     stroke-width: 10px;
     stroke-dasharray: 502;
     stroke-dashoffset: 502;
     transition: stroke-dashoffset 1s ease;
   }
-  
+  .heading-3{
+  text-align: center;
+color: rgba(242, 16, 39, 0.97);
+font-size: 1.7rem;
+font-weight:bold;
+margin-bottom: 30px;
+  }
   .path::before {
     content: attr(data-percentage);
     position: absolute;

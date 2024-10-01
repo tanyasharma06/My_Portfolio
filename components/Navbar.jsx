@@ -5,7 +5,11 @@ import './Navbar.css'; // Your navbar styles
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <div className="logo"><b>TS</b></div>
+      <div className="logo">
+  <span class="initial">T</span>
+  <span class="suffix">S</span>
+
+      </div>
       <ul>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/about">About</Link></li>

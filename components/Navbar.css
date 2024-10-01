@@ -1,43 +1,74 @@
 /* Navbar.css */
 .navbar {
-    position: fixed;
+  position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     text-align: center;
-    z-index: 1;
     display: flex; /* Make it a flex container */
     justify-content: space-between; 
     align-items: center; /* Vertically center elements */
-  box-sizing: border-box;/* Space elements evenly *//* Vertically center elements */
-  }
-  .navbar .logo{
-    margin-right:auto;
-    margin-left: 70px;
-    text-shadow: black;
+  box-sizing: border-box;
+
+  } .logo {
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 40px
+}
+  
+  .logo span {
+    position: relative;
   }
   
-  .navbar ul {
-    list-style: none; /* Remove bullet points */
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
-    display: flex; /* Make it a flex container */
+  .logo span:first-child {
+    transform: rotate(20deg);
+  }
+  
+  .logo span:last-child {
+    transform: rotate(-20deg);
+  }
+  
+  .logo span::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 70%;
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+   .navbar ul {
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
   }
   
   .navbar li {
-    margin-right: 20px; /* Add some space between list items */
+    margin-right: 30px; /* Add some space between list items */
   }
   
   .navbar a {
-    color: black; /* White text color */
+    color: rgb(7, 7, 7); /* White text color */
     text-decoration: none; /* Remove underline */
     transition: color 0.2s ease; 
-    font-weight: bold;
-    font-size:20px;
+    font-weight:1px;
+    font-style:italic;
+    font-size:22px;
   }
   
   .navbar a:hover {
-    color: #191de0; 
+    color:black;
   /* Light gray text color on hover */
   }
   

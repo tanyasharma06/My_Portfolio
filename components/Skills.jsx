@@ -3,12 +3,11 @@ import './Skills.css';
 
 const Skills = () => {
   return (
-    
-    <div className="heading" id="#skills">MY SKILLS
+    <div className="heading-1">MY SKILLS
 
     <div className="container">
       <div className="container-1">
-        <h1 className="heading-1">Technical Skills</h1>
+        <h1 className="heading-2">Technical Skills</h1>
         <div className="technical-bars">
           <div className="bar html">
             <i className="bx bxl-html5" style={{ color: '#147bbc' }}></i>
@@ -51,7 +50,7 @@ const Skills = () => {
       </div>
 
       <div className="container-2">
-        <h1 className="heading-1">Professional Skills</h1>
+        <h1 className="heading-3">Professional Skills</h1>
         <div className="radial-bar-container">
           <div className="radial-bar">
             <svg x="0px" y="0px" viewBox="0 0 200 200">
@@ -89,7 +88,8 @@ const Skills = () => {
       </div>
     </div>
     </div>
-  );
+
+  )
 };
 
 export default Skills;

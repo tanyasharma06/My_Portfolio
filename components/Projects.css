@@ -6,7 +6,7 @@
   .projects-heading {
     font-size: 3rem;
     margin-bottom: 40px;
-    color: #0af157;
+    color: rgb(240, 16, 50);
   }
   
   .projects-grid {
@@ -44,7 +44,7 @@
   }
   
   .tech-tag {
-    background-color: #0af157;
+    background-color: #f10a0aad;
     color: white;
     padding: 5px 10px;
     border-radius: 5px;
